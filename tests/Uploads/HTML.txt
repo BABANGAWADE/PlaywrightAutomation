@@ -1,0 +1,12 @@
+
+
+Test case 1: Positive LogIn test
+Open page
+Type username student into Username field
+Type password Password123 into Password field
+Push Submit button
+Verify new page URL contains practicetestautomation.com/logged-in-successfully/
+Verify new page contains expected text ('Congratulations' or 'successfully logged in')
+Verify button Log out is displayed on the new page
+
+page.locator("span[class='select2 select2-container select2-container--default select2-container--below select2-container--focus'] span[role='combobox']")
