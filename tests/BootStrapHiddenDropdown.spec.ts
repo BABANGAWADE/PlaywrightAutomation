@@ -1,8 +1,9 @@
 import{test,expect, Locator} from '@playwright/test'
-import { count } from 'node:console';
+//import { count } from 'node:console';
 
 test("Verify_HiddenDropdownValues",async({page})=>{
 
+  //launch the url
 await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 
 
