@@ -1,5 +1,6 @@
 import{test,expect} from '@playwright/test'
 
+//launch the url
 test("SimpleAlert_DialogHandling",async({page})=>{
 
 await page.goto('https://testpages.eviltester.com/pages/basics/alerts-javascript/');

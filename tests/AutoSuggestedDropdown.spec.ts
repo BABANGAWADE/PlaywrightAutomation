@@ -2,6 +2,7 @@
 
 import{test,expect} from '@playwright/test'
 
+//launch the url
 test("Verify_AutoSuggested_Dropdown", async({page})=>{
 
 await page.goto("https://www.flipkart.com/");
